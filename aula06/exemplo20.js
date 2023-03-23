@@ -10,8 +10,8 @@ class corrente extends conta{
         this.limite = pLimite
     }
 
-    get limite(){return this.limite}
-    set limite(pLimite){this.limite = pLimite}
+    get Limite(){return this.limite}
+    set Limite(pLimite){this.limite = pLimite}
 }
 
 var obj_corrente =  new corrente(300)
